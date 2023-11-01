@@ -1,5 +1,7 @@
 # LogEX - Explore logs with ease!!
 
+![preview 1](screenshots/image.png)
+
 ## Dev Setup
 
 - ASDF or NVM can be used as node version manager
