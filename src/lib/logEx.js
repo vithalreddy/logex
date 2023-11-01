@@ -150,7 +150,7 @@ export class LogFileReader {
       const startPosition = await this.findLogPosition(fd, buffer, startTime);
 
       if (startPosition === null) {
-        return [];
+        return 'No Results found.';
       } else {
         return await this.readRows(fd, buffer, {
           startPosition,
