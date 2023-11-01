@@ -1,0 +1,23 @@
+{
+  "name": "log-ex",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "format:check": "prettier --check . --cache",
+    "format:fix": "prettier --write . --cache",
+    "lint:check": "eslint . --cache",
+    "lint:fix": "eslint --fix . --cache"
+  },
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.0.3"
+  },
+  "author": "Vithal Reddy",
+  "license": "UNLICENSED"
+}
